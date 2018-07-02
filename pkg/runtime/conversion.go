@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/conversion"
 )
 
 // DefaultFieldSelectorConversion auto-accepts metav1 values for name and namespace.

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/util/wait"
 )
 
 // ConditionFunc returns true if the condition has been reached, false if it has not been reached yet,

@@ -30,12 +30,12 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	"github.com/yext/apimachinery/pkg/util/httpstream"
+	utilnet "github.com/yext/apimachinery/pkg/util/net"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"github.com/mxk/go-flowrate/flowrate"
 )
 

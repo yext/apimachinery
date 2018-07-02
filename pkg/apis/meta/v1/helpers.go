@@ -19,10 +19,10 @@ package v1
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/selection"
-	"k8s.io/apimachinery/pkg/types"
+	"github.com/yext/apimachinery/pkg/fields"
+	"github.com/yext/apimachinery/pkg/labels"
+	"github.com/yext/apimachinery/pkg/selection"
+	"github.com/yext/apimachinery/pkg/types"
 )
 
 // LabelSelectorAsSelector converts the LabelSelector api type into a struct that implements

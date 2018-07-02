@@ -25,12 +25,12 @@ import (
 	"strings"
 	"testing"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	serializertesting "k8s.io/apimachinery/pkg/runtime/serializer/testing"
-	"k8s.io/apimachinery/pkg/util/diff"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	serializertesting "github.com/yext/apimachinery/pkg/runtime/serializer/testing"
+	"github.com/yext/apimachinery/pkg/util/diff"
 
 	"github.com/ghodss/yaml"
 	"github.com/google/gofuzz"

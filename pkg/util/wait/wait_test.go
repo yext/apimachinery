@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/runtime"
 )
 
 func TestUntil(t *testing.T) {

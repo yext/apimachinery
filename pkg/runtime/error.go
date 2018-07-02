@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 type notRegisteredErr struct {

@@ -16,7 +16,7 @@ limitations under the License.
 
 package v1beta1
 
-import "k8s.io/apimachinery/pkg/runtime"
+import "github.com/yext/apimachinery/pkg/runtime"
 
 func (in *TableRow) DeepCopy() *TableRow {
 	if in == nil {

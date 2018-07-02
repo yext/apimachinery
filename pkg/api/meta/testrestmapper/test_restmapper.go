@@ -17,10 +17,10 @@ limitations under the License.
 package testrestmapper
 
 import (
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/util/sets"
 )
 
 // TestOnlyStaticRESTMapper returns a union RESTMapper of all known types with priorities chosen in the following order:

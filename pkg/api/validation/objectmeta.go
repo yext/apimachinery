@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"strings"
 
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	v1validation "k8s.io/apimachinery/pkg/apis/meta/v1/validation"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	apiequality "github.com/yext/apimachinery/pkg/api/equality"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	v1validation "github.com/yext/apimachinery/pkg/apis/meta/v1/validation"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/util/validation"
+	"github.com/yext/apimachinery/pkg/util/validation/field"
 )
 
 const FieldImmutableErrorMsg string = `field is immutable`

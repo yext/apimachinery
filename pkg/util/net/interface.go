@@ -26,7 +26,7 @@ import (
 
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 )
 
 type AddressFamily uint

@@ -17,13 +17,13 @@ limitations under the License.
 package test
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/testapigroup"
-	"k8s.io/apimachinery/pkg/apis/testapigroup/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	apiserializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/apis/testapigroup"
+	"github.com/yext/apimachinery/pkg/apis/testapigroup/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	apiserializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
 )
 
 // List and ListV1 should be kept in sync with k8s.io/kubernetes/pkg/api#List

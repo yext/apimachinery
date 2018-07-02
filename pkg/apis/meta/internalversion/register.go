@@ -17,11 +17,11 @@ limitations under the License.
 package internalversion
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	metav1beta1 "github.com/yext/apimachinery/pkg/apis/meta/v1beta1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/runtime/serializer"
 )
 
 // GroupName is the group name for this API.

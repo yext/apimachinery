@@ -19,8 +19,8 @@ package runtime
 import (
 	"errors"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 type encodable struct {

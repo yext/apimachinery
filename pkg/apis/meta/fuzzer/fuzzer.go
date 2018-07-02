@@ -25,14 +25,14 @@ import (
 
 	"github.com/google/gofuzz"
 
-	"k8s.io/apimachinery/pkg/api/resource"
-	apitesting "k8s.io/apimachinery/pkg/api/testing"
-	"k8s.io/apimachinery/pkg/api/testing/fuzzer"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
-	"k8s.io/apimachinery/pkg/runtime"
-	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/types"
+	"github.com/yext/apimachinery/pkg/api/resource"
+	apitesting "github.com/yext/apimachinery/pkg/api/testing"
+	"github.com/yext/apimachinery/pkg/api/testing/fuzzer"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	metav1beta1 "github.com/yext/apimachinery/pkg/apis/meta/v1beta1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	runtimeserializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/apimachinery/pkg/types"
 )
 
 func genericFuzzerFuncs(codecs runtimeserializer.CodecFactory) []interface{} {

@@ -27,12 +27,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 
-	"k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/util/net"
+	"github.com/yext/apimachinery/pkg/util/sets"
 )
 
 // atomsToAttrs states which attributes of which tags require URL substitution.

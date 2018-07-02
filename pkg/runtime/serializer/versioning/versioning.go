@@ -19,9 +19,9 @@ package versioning
 import (
 	"io"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // NewCodecForScheme is a convenience method for callers that are using a scheme.

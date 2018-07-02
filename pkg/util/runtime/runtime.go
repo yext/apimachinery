@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 )
 
 var (
@@ -111,7 +111,7 @@ func HandleError(err error) {
 
 // logError prints an error with the call stack of the location it was reported
 func logError(err error) {
-	glog.ErrorDepth(2, err)
+	glog.ErrorWithDepth(2, err)
 }
 
 type rudimentaryErrorBackoff struct {

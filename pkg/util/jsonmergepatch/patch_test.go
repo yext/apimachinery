@@ -24,7 +24,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/evanphx/json-patch"
 	"github.com/ghodss/yaml"
-	"k8s.io/apimachinery/pkg/util/json"
+	"github.com/yext/apimachinery/pkg/util/json"
 )
 
 type FilterNullTestCases struct {

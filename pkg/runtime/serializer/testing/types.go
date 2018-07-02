@@ -17,7 +17,7 @@ limitations under the License.
 package testing
 
 import (
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // Test a weird version/kind embedding format.

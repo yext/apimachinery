@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/labels"
+	"github.com/yext/apimachinery/pkg/labels"
 )
 
 func TestLabelSelectorAsSelector(t *testing.T) {

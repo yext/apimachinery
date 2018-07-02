@@ -19,9 +19,9 @@ package watch_test
 import (
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	. "k8s.io/apimachinery/pkg/watch"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	. "github.com/yext/apimachinery/pkg/watch"
 )
 
 type testType string

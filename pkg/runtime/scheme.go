@@ -23,10 +23,10 @@ import (
 
 	"strings"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/sets"
 )
 
 // Scheme defines methods for serializing and deserializing API objects, a type

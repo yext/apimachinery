@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime"
 )
 
 // Interface can be implemented by anything that knows how to watch and report changes.

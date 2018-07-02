@@ -19,8 +19,8 @@ package validation
 import (
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/yext/apimachinery/pkg/util/validation"
+	"github.com/yext/apimachinery/pkg/util/validation/field"
 )
 
 const IsNegativeErrorMsg string = `must be greater than or equal to 0`

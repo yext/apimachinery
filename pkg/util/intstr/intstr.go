@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"github.com/google/gofuzz"
 )
 

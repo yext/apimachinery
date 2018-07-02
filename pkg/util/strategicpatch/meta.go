@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/apimachinery/pkg/util/mergepatch"
-	forkedjson "k8s.io/apimachinery/third_party/forked/golang/json"
-	openapi "k8s.io/kube-openapi/pkg/util/proto"
+	"github.com/yext/apimachinery/pkg/util/mergepatch"
+	forkedjson "github.com/yext/apimachinery/third_party/forked/golang/json"
+	openapi "github.com/yext/kube-openapi/pkg/util/proto"
 )
 
 type PatchMeta struct {

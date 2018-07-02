@@ -25,7 +25,7 @@ import (
 
 	"github.com/googleapis/gnostic/OpenAPIv2"
 	"github.com/googleapis/gnostic/compiler"
-	openapi "k8s.io/kube-openapi/pkg/util/proto"
+	openapi "github.com/yext/kube-openapi/pkg/util/proto"
 )
 
 // Fake opens and returns a openapi swagger from a file Path. It will

@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang/glog"
-	"k8s.io/apimachinery/pkg/selection"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
+	"github.com/yext/glog"
+	"github.com/yext/apimachinery/pkg/selection"
+	"github.com/yext/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/util/validation"
 )
 
 // Requirements is AND of all requirements.

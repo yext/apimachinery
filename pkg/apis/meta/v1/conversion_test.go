@@ -19,8 +19,8 @@ package v1_test
 import (
 	"testing"
 
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	"k8s.io/apimachinery/pkg/apis/meta/v1"
+	apiequality "github.com/yext/apimachinery/pkg/api/equality"
+	"github.com/yext/apimachinery/pkg/apis/meta/v1"
 )
 
 func TestMapToLabelSelectorRoundTrip(t *testing.T) {

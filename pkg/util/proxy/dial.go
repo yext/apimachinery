@@ -24,10 +24,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/third_party/forked/golang/netutil"
+	utilnet "github.com/yext/apimachinery/pkg/util/net"
+	"github.com/yext/apimachinery/third_party/forked/golang/netutil"
 )
 
 func DialURL(ctx context.Context, url *url.URL, transport http.RoundTripper) (net.Conn, error) {

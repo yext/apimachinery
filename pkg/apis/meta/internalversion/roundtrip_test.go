@@ -19,8 +19,8 @@ package internalversion
 import (
 	"testing"
 
-	"k8s.io/apimachinery/pkg/api/testing/roundtrip"
-	"k8s.io/apimachinery/pkg/apis/meta/fuzzer"
+	"github.com/yext/apimachinery/pkg/api/testing/roundtrip"
+	"github.com/yext/apimachinery/pkg/apis/meta/fuzzer"
 )
 
 func TestRoundTrip(t *testing.T) {

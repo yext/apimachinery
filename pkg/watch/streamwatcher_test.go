@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	. "k8s.io/apimachinery/pkg/watch"
+	"github.com/yext/apimachinery/pkg/runtime"
+	. "github.com/yext/apimachinery/pkg/watch"
 )
 
 type fakeDecoder struct {

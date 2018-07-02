@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	metav1beta1 "github.com/yext/apimachinery/pkg/apis/meta/v1beta1"
+	"github.com/yext/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/types"
 )
 
 // errNotList is returned when an object implements the Object style interfaces but not the List style

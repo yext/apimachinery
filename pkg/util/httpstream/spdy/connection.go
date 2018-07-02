@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/docker/spdystream"
-	"github.com/golang/glog"
-	"k8s.io/apimachinery/pkg/util/httpstream"
+	"github.com/yext/glog"
+	"github.com/yext/apimachinery/pkg/util/httpstream"
 )
 
 // connection maintains state about a spdystream.Connection and its associated

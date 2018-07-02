@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/runtime"
 )
 
 // For any test of the style:
